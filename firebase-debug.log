@@ -1,0 +1,43 @@
+[debug] [2021-11-13T03:44:15.174Z] ----------------------------------------------------------------------
+[debug] [2021-11-13T03:44:15.178Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\User\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-11-13T03:44:15.179Z] CLI Version:   9.22.0
+[debug] [2021-11-13T03:44:15.180Z] Platform:      win32
+[debug] [2021-11-13T03:44:15.180Z] Node Version:  v16.10.0
+[debug] [2021-11-13T03:44:15.182Z] Time:          Sat Nov 13 2021 09:44:15 GMT+0600 (Bangladesh Standard Time)
+[debug] [2021-11-13T03:44:15.183Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-11-13T03:44:15.198Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-11-13T03:44:15.198Z] > authorizing via signed-in user (shafikul1170@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\Full Stack Project Water Bottled\Backend Water Bottled
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2021-11-13T03:44:36.047Z] > refreshing access token with scopes: []
+[debug] [2021-11-13T03:44:36.047Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-11-13T03:44:37.141Z] <<< HTTP RESPONSE 200 {"expires":"Mon, 01 Jan 1990 00:00:00 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","pragma":"no-cache","date":"Sat, 13 Nov 2021 03:44:35 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"clear","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-11-13T03:44:37.185Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2021-11-13T03:44:37.920Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2021-11-13T03:44:37.920Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project frontend-water-bottled (frontend-water-bottled) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
